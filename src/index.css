@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ---------------------------- Tailwind CSS ----------------------------  */
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 0.6rem;
+}
+
+
+/* ----------------------------  Themes ----------------------------  */
+
+@theme{
+  --color-brand: #000000;
+  --color-primary: #ffffff;
+  --color-blueTxt: #0057FF;
+  --color-headText: #100E2C;
+  --color-subText: #7A7474;
+  --color-tagColor: #8EDA53;
+
+}
+
+/* ---------------------------- Container ----------------------- */
+.container {
+    width: 100%;
+    @media (width >= 40rem /* 640px */) {
+        max-width: 40rem /* 640px */;
+    }
+    @media (width >= 48rem /* 768px */) {
+        max-width: 48rem /* 768px */;
+    }
+    @media (width >= 64rem /* 1024px */) {
+        max-width: 64rem /* 1024px */;
+    }
+    @media (width >= 80rem /* 1280px */) {
+        max-width: 81rem /* 1280px */;
+    }
+    @media (width >= 96rem /* 1536px */) {
+        max-width: 96rem /* 1536px */;
+    }
+}
+.container {
+    margin-inline: auto;
+    padding-inline: 0.6rem /* 9.6px */;
+}
