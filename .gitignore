@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Maven
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
