@@ -33,7 +33,7 @@ export default function RentalDetails({ id }) {
       {rental.images && rental.images.length > 0 && (
         <div style={{ display: "flex", gap: "8px" }}>
           {rental.images.map((src, idx) => (
-            <img key={idx} src={src} alt={`img-${idx}`} style={{ width: 200, height: 150, objectFit: "cover" }} />
+            <img key={idx} src={src} alt={`${rental.title} - Image ${idx + 1}`} style={{ width: 200, height: 150, objectFit: "cover" }} />
           ))}
         </div>
       )}
